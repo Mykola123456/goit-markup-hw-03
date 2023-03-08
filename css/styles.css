@@ -44,7 +44,7 @@ button, btn {
 }
 .header {
         padding-top: 24px;
-        padding-bottom: 32px;
+        padding-bottom: 24px;
 }
 
 
@@ -192,15 +192,17 @@ button, btn {
 
 .hero {
 background: var(--second-title-color);
-padding-top: 188px;
-padding-bottom: 188px;
+
 }
 
 
 
 /* секція  2 ----------------------------------------------------*/
 
-
+.about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
 .title-about {
         font-style: normal;
         font-weight: 500;
@@ -232,6 +234,10 @@ padding-bottom: 188px;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
+}
+
+.programs {
+        padding-bottom: 116px;
 }
 /* секція  4 ----------------------------------------------------*/
 .team {
