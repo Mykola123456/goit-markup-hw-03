@@ -10,6 +10,10 @@ body {
         --adres-title-color: #434455;
         
 }
+
+img {
+        display: block;
+}
 /* resset------------------------------------------------------------- */
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -188,6 +192,8 @@ button, btn {
 
 .hero {
 background: var(--second-title-color);
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 
