@@ -10,12 +10,37 @@ body {
         --adres-title-color: #434455;
         
 }
+/* resset------------------------------------------------------------- */
+
+p, h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+}
+ul {
+        padding-left: 0;
+        margin: 0;
+}
+button, btn {
+        cursor: pointer;
+}
 
 
 
 /* логотип ----------------------------------------------------------*/
+.container {
+        width: 1470px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        outline: 2px solid red;
+}
+
+
 .link {
         text-decoration: none;
+}
+.header {
+        padding-top: 24px;
+        padding-bottom: 32px;
 }
 
 
