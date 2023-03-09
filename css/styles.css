@@ -31,12 +31,18 @@ button, btn {
 
 /* логотип ----------------------------------------------------------*/
 .container {
-        width: 1470px;
+        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
         outline: 2px solid red;
+
+       
 }
+
+
+
+
 
 
 .link {
@@ -45,6 +51,11 @@ button, btn {
 .header {
         padding-top: 24px;
         padding-bottom: 24px;
+        
+}
+
+.header-nav {
+        display: flex;
 }
 
 
