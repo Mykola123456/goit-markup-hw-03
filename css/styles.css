@@ -40,9 +40,20 @@ button, btn {
        
 }
 
+.web-container {
+       display: flex;
+       align-items: center; 
+justify-content: space-between;
+}
 
+.header-list {
+        display: flex;
+        gap: 40px;
+}
 
-
+.header-link {
+        
+}
 
 
 .link {
@@ -55,7 +66,8 @@ button, btn {
 }
 
 .header-nav {
-        display: flex;
+       display: flex;
+       align-items: center;
 }
 
 
@@ -64,12 +76,13 @@ button, btn {
         font-weight: 800;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
-        line-height: 1.17;
+        line-height: 1.33;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        margin-right: 76px;
 }
 
 
@@ -87,7 +100,10 @@ button, btn {
 }
 /* адреса------------------------------------------------------------- */
 
-
+.address-list {
+        display: flex;
+        gap: 40px;
+}
 
 .link {
         text-decoration: none;
@@ -121,6 +137,9 @@ button, btn {
         letter-spacing: 0.02em;
         color: var(--adres-title-color);
 }
+.tel {
+        
+}
     
 .address-tel {
         
@@ -135,35 +154,60 @@ button, btn {
 
 /* секція 1 ---------------------------------------------------*/
 .title {
-        font-style: normal;
-        font-weight: 700;
+        width: 496px;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
+
+        padding-top: 188px;
+        
+        margin: 0 auto;
+        
+}
+
+.hero {
+       
         
 }
 
 /* кнопки ---------------------------------------------*/
+
+.hero-title {
+text-align: center;
+}
 .hero-button{
         font-family: var(--paragraph-title-font-family);
-        font-style: normal;
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         background: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        cursor: pointer
+        
+        text-align: center;
+        padding: 16px 32px;
+        margin-top: 48px;
+        padding-bottom: 188px;
+
+        
 }
+
+
+
 .button:is(:hover, :focus, :active) {
         color: #FFFFFF;
         background: #404BBF;
+}
+
+.hero-list {
+       margin-left: 271px;
+        display: flex;
+                flex-wrap: wrap;
+                column-gap: 24px;
+                
 }
 
 .hero-btn-list {
@@ -179,6 +223,11 @@ button, btn {
         color: #4D5AE5;
         background: #F4F4FD;
         cursor: pointer
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
 
 }
 
@@ -209,6 +258,10 @@ background: var(--second-title-color);
 
 
 /* секція  2 ----------------------------------------------------*/
+
+.about-list {
+        display: flex;
+}
 
 .about {
         padding-top: 120px;
