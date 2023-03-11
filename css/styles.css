@@ -271,8 +271,10 @@ background: var(--second-title-color);
 
 .about-portfolio {
         padding-top: 32px;
+        padding-left: 16px;
 }
 .text-portfolio {
+        padding-left: 16px;
         padding-top: 8px;
         padding-bottom: 32px;
         background: #FFFFFF;
