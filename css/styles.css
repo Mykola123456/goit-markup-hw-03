@@ -337,6 +337,7 @@ background: var(--second-title-color);
 
 .programs {
         padding-top: 120px;
+        padding-bottom: 120px;
         
 }
 
@@ -350,7 +351,7 @@ background: var(--second-title-color);
 }
 /* секція  4 ----------------------------------------------------*/
 .team {
-        padding-top: 120px;
+       
         background: #F4F4FD;
         
         
