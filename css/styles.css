@@ -61,7 +61,7 @@ justify-content: space-between;
 }
 .header {
         padding-top: 24px;
-        padding-bottom: 24px;
+        
         
 }
 
@@ -159,26 +159,25 @@ justify-content: space-between;
         width: 496px;
         font-size: 56px;
         line-height: 1.07;
-        text-align: center;
+        
         letter-spacing: 0.02em;
         color: #FFFFFF;
-
-        padding-top: 188px;
-        
         margin: 0 auto;
+        
+        
         
 }
 
-.hero {
-       
+.hero-title {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        text-align: center;
         
 }
 
 /* кнопки ---------------------------------------------*/
 
-.hero-title {
-text-align: center;
-}
+
 .hero-button{
         font-family: var(--paragraph-title-font-family);
         font-size: 16px;
@@ -189,12 +188,14 @@ text-align: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         
-        text-align: center;
+        margin: 0 auto;
         padding: 16px 32px;
         margin-top: 48px;
-        padding-bottom: 188px;
 
         
+}
+.button {
+
 }
 
 
@@ -247,6 +248,10 @@ text-align: center;
         color: #FFFFFF;
 }
 
+.hero-none {
+        margin-top: 96px;
+}
+
 
 
 /* hero -------------------------------------------*/
@@ -255,11 +260,27 @@ text-align: center;
 .hero {
 background: var(--second-title-color);
 
+
 }
 
 
 
 /* секція  2 ----------------------------------------------------*/
+
+
+.about-portfolio {
+        margin-top: 32px;
+}
+.text-portfolio {
+        margin-top: 8px;
+        padding-bottom: 32px;
+}
+
+
+
+.container-app {
+        padding-top: 96px;
+}
 
 .about-list {
         display: flex;
@@ -279,7 +300,7 @@ background: var(--second-title-color);
         letter-spacing: 0.02em;
         color: var(--second-title-color);
 
-        margin-bottom: 24px;
+        
 }
 
 .title-text {
@@ -317,10 +338,16 @@ background: var(--second-title-color);
         display: flex;
         gap: 24px;
 }
+
+.container-marketing {
+        padding-top: 48px;
+}
 /* секція  4 ----------------------------------------------------*/
 .team {
-        background: #F4F4FD;
         padding-top: 120px;
+        background: #F4F4FD;
+        
+        
         
         
 }
@@ -338,13 +365,16 @@ background: var(--second-title-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
-
+        padding-top: 120px;
         margin-bottom: 72px;
+        
 }
 
 .team-item {
         display: flex;
         gap: 24px;
+        padding-bottom: 120px;
+        
 }
 
 
@@ -368,7 +398,13 @@ background: var(--second-title-color);
         letter-spacing: 0.02em;
         color: var(--adres-title-color);
         margin-top: 8px;
+        padding-bottom: 32px;
+}
+
+.container-taxi {
+        padding-top: 48px;
         padding-bottom: 120px;
+        
 }
 
 
@@ -415,7 +451,7 @@ background: var(--second-title-color);
         left: 156px;
         top: 2418px;
         margin-top: 16px;
-        padding-bottom: 100px;
+        
 }
 .footer {
 background: var(--second-title-color);
@@ -424,6 +460,7 @@ background: var(--second-title-color);
 
 .footer-container {
 padding-top: 100px;
+padding-bottom: 100px;
 }
 
  
