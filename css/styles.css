@@ -68,6 +68,8 @@ justify-content: space-between;
 .header-nav {
        display: flex;
        align-items: center;
+       padding-top: 24px;
+       padding-bottom: 24px;
 }
 
 
@@ -261,12 +263,14 @@ background: var(--second-title-color);
 
 .about-list {
         display: flex;
+        gap: 24px;
 }
 
 .about {
         padding-top: 120px;
-        padding-bottom: 120px;
+        
 }
+
 .title-about {
         font-style: normal;
         font-weight: 500;
@@ -274,6 +278,8 @@ background: var(--second-title-color);
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--second-title-color);
+
+        margin-bottom: 24px;
 }
 
 .title-text {
@@ -298,14 +304,25 @@ background: var(--second-title-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
+        margin-bottom: 72px;
+        
 }
 
 .programs {
-        padding-bottom: 116px;
+        padding-top: 120px;
+        
+}
+
+.programs-item {
+        display: flex;
+        gap: 24px;
 }
 /* секція  4 ----------------------------------------------------*/
 .team {
         background: #F4F4FD;
+        padding-top: 120px;
+        
+        
 }
 .team-list {
         background: #FFFFFF;
@@ -321,6 +338,13 @@ background: var(--second-title-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
+
+        margin-bottom: 72px;
+}
+
+.team-item {
+        display: flex;
+        gap: 24px;
 }
 
 
@@ -333,6 +357,7 @@ background: var(--second-title-color);
         text-align: center;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-top: 32px;
 }
 
 .team-text {
@@ -342,6 +367,8 @@ background: var(--second-title-color);
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--adres-title-color);
+        margin-top: 8px;
+        padding-bottom: 120px;
 }
 
 
@@ -358,6 +385,7 @@ background: var(--second-title-color);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        
 }
 
 
@@ -372,6 +400,7 @@ background: var(--second-title-color);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        
 }
 
 .footer-text {
@@ -380,10 +409,21 @@ background: var(--second-title-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
-        
+
+        width: 264px;
+        height: 72px;
+        left: 156px;
+        top: 2418px;
+        margin-top: 16px;
+        padding-bottom: 100px;
 }
 .footer {
 background: var(--second-title-color);
+
+}
+
+.footer-container {
+padding-top: 100px;
 }
 
  
