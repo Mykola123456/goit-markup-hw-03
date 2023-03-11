@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455
+       
 }
 :root {
         --main-title-color: #ffffff ;
@@ -35,7 +36,7 @@ button, btn {
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-        outline: 2px solid red;
+        /* outline: 2px solid red; */
 
        
 }
@@ -249,7 +250,7 @@ justify-content: space-between;
 }
 
 .hero-none {
-        margin-top: 96px;
+        padding-top: 96px;
 }
 
 
@@ -269,10 +270,10 @@ background: var(--second-title-color);
 
 
 .about-portfolio {
-        margin-top: 32px;
+        padding-top: 32px;
 }
 .text-portfolio {
-        margin-top: 8px;
+        padding-top: 8px;
         padding-bottom: 32px;
 }
 
@@ -285,6 +286,11 @@ background: var(--second-title-color);
 .about-list {
         display: flex;
         gap: 24px;
+        
+       
+                
+        
+                
 }
 
 .about {
@@ -374,6 +380,8 @@ background: var(--second-title-color);
         display: flex;
         gap: 24px;
         padding-bottom: 120px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
         
 }
 
